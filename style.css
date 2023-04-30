@@ -25,6 +25,7 @@ input {
   height: 1.5em;
   padding-left: 10px;
   font-family: "Poppins", sans-serif;
+  border: 1px solid hsl(0, 0%, 8%);
 }
 input:focus {
   outline: 1px solid hsl(0, 1%, 44%);
@@ -41,9 +42,6 @@ input:focus {
   gap: 10px;
 }
 label {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
   color: hsl(0, 1%, 44%);
   font-size: 12px;
   letter-spacing: 3px;
